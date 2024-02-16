@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  myservice:
+    image: jaggwinner/python:speakerdiarization  
+    volumes:
+      - .:/code
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            capabilities: [gpu]

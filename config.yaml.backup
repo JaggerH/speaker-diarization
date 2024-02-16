@@ -1,0 +1,2 @@
+huggingface:
+  use_auth_token: HUGGINGFACE_ACCESS_TOKEN_GOES_HERE

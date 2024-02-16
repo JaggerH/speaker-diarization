@@ -1,0 +1,6 @@
+.venv
+venv/
+output/
+ffmpeg.exe
+ffprobe.exe
+config.yaml
